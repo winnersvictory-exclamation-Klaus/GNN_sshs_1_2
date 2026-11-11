@@ -1,0 +1,11 @@
+t02_do_no_harm exit=0 32s
+t09_symmetry exit=0 41s
+t04_normalisation exit=0 106s
+t06_energy_trigger exit=0 99s
+t05_cfl_estimator exit=0 39s
+t03_activation exit=1 6s
+t07_minimal_rescue exit=0 2034s
+t11_stimulus exit=0 77s
+t13_impulse exit=0 116s
+t12_combinations exit=0 621s
+t10_partition exit=0 259s

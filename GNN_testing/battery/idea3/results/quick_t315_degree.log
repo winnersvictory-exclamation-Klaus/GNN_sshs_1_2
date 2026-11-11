@@ -1,0 +1,25 @@
+                  fail_frac           ari_edge_cut        
+gkind        random_regular sbm_het random_regular sbm_het
+sigma                   NaN     0.0            NaN     0.0
+d                       8.0     NaN            8.0     NaN
+force                                                     
+absvw                  0.00     0.0            NaN     0.0
+amp                    0.00     0.0            NaN     0.0
+amp_gated              0.00     0.0            NaN     0.0
+blend_agree            0.00     0.0            NaN     0.0
+edge_memory            0.00     0.0            NaN     0.0
+gauss                  0.00     0.0            NaN     0.0
+huber                  0.00     0.0            NaN     0.0
+huber_anneal           0.00     0.0            NaN     0.0
+huber_global           0.00     0.0            NaN     0.0
+huber_local            0.00     0.0            NaN     0.0
+mean                   0.00     0.0            NaN     0.0
+median                 0.00     0.0            NaN     1.0
+odd_owa                0.00     0.0            NaN     0.0
+odd_vw                 0.00     0.0            NaN     0.0
+owa                    1.00     1.0            NaN     NaN
+symowa_ext             0.00     0.0            NaN     0.0
+symowa_med             0.00     0.0            NaN     0.0
+tanh                   0.00     0.0            NaN     0.0
+trim                   0.00     0.0            NaN     0.0
+vw                     0.62     1.0            NaN     NaN

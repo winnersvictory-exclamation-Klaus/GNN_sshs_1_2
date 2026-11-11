@@ -1,0 +1,10 @@
+t602b_trajectory exit=0 secs=46
+t605_blockoffset exit=0 secs=495
+t609_diffusion exit=0 secs=657
+t604_invq exit=0 secs=183
+t606_scope exit=0 secs=460
+t607_frozen exit=0 secs=827
+t610_interaction exit=0 secs=764
+t608_modes exit=0 secs=41
+t611_partition exit=0 secs=549
+t612_stimulus exit=1 secs=1

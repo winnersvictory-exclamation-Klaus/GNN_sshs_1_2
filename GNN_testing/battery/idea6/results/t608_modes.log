@@ -1,0 +1,5 @@
+/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/idea6/t608_modes.py:30: RuntimeWarning: Mean of empty slice
+  row["high_late"] = float(np.nanmedian(np.nanmean(me["high"][-100:], axis=0)))
+/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/idea6/t608_modes.py:30: RuntimeWarning: Mean of empty slice
+  row["high_late"] = float(np.nanmedian(np.nanmean(me["high"][-100:], axis=0)))
+1152 rows

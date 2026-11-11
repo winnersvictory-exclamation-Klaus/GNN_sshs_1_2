@@ -1,0 +1,24 @@
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/dev/lib/python3.12/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/idea2/t03_activation.py", line 39, in job
+    row["act_late_given_live"] = float(np.nanmean(np.where(live, a[STEPS * 3 // 4:STEPS], np.nan))) if live.any() else np.nan
+                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: operands could not be broadcast together with shapes (251,8) (250,8) () 
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/idea2/t03_activation.py", line 46, in <module>
+    out = C.pmap(job, [(s, 8) for s in specs], procs=2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/common.py", line 1723, in pmap
+    for i, r in enumerate(pool.imap(fn, jobs, chunksize=chunksize), 1):
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniforge/base/envs/dev/lib/python3.12/multiprocessing/pool.py", line 873, in next
+    raise value
+ValueError: operands could not be broadcast together with shapes (251,8) (250,8) () 

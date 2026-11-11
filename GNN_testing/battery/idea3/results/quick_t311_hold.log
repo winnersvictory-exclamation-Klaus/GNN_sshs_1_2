@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/idea3/t311_hold.py", line 38, in <module>
+    out = C.pmap(job, [(s, 8) for s in specs], procs=2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/common.py", line 1718, in pmap
+    return [fn(j) for j in jobs]
+            ^^^^^
+  File "/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/idea3/t311_hold.py", line 29, in job
+    row["ac_final"] = float(np.nanmedian(C.ac_final(run.X, g, run.fail_step)[run.ok]))
+                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/common.py", line 796, in ac_final
+    return _tail_stat(X, fail_step, W, True) / np.where(a0 > 0, a0, np.nan)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/common.py", line 783, in _tail_stat
+    ok = _ok(fail_step, R)
+         ^^^^^^^^^^^^^^^^^
+  File "/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/common.py", line 112, in _ok
+    return np.ones(R, bool) if fail_step is None else (np.asarray(fail_step) < 0)
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'G' and 'int'

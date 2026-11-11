@@ -1,0 +1,23 @@
+           max_abs_err_exact  max_abs_err_fft monotone
+eps   c                                               
+-0.40 0.5                0.0         0.000002     True
+      1.0                0.0         0.000001     True
+-0.25 0.5                0.0         0.000002     True
+      1.0                0.0         0.000001     True
+-0.10 0.5                0.0         0.000002     True
+      1.0                0.0         0.000001     True
+ 0.00 0.5                0.0         0.000002     True
+      1.0                0.0         0.000001     True
+ 0.10 0.5                0.0         0.000002     True
+      1.0                0.0         0.000001     True
+ 0.30 0.5                0.0         0.000002     True
+      1.0                0.0         0.000001     True
+ 1.00 0.5                0.0         0.000001     True
+      1.0                0.0         0.000001     True
+         n_unstable_modes  max_growth_dev
+eps c                                    
+1.0 1.0              14.0         0.81093
+
+real	0m22.591s
+user	0m27.227s
+sys	0m4.007s

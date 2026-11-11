@@ -1,0 +1,139 @@
+scan rows 6390 rescue rows 1260
+plain wave c=1 T=2000 fail_frac
+ force   mean  trim  owa   vw  median  gauss  absvw  symowa_ext  symowa_med  huber
+kind                                                                             
+clique   0.0  0.04  1.0  1.0     1.0    1.0    1.0         0.0         0.0   0.00
+cycle    0.0  1.00  1.0  1.0     1.0    1.0    1.0         1.0         1.0   1.00
+sbm      0.0  1.00  1.0  1.0     1.0    1.0    1.0         1.0         1.0   0.58
+
+minimal rescuing grid index (0=weakest of 10; NaN = never rescued) per scheme/force/kind; wave-stable => idx 0
+kind                 clique  cycle  sbm
+scheme   force                         
+cfl      huber          0.0    NaN  NaN
+         mean           0.0    0.0  0.0
+         symowa_ext     0.0    NaN  NaN
+         symowa_med     0.0    NaN  NaN
+         trim           7.0    NaN  NaN
+damp     absvw          4.0    4.0  4.0
+         gauss          3.0    5.0  4.0
+         huber          0.0    1.0  0.0
+         mean           0.0    0.0  0.0
+         median         2.0    2.0  2.0
+         owa            6.0    NaN  6.0
+         symowa_ext     0.0    1.0  1.0
+         symowa_med     0.0    1.0  1.0
+         trim           0.0    2.0  1.0
+         vw             5.0    9.0  7.0
+drag     absvw          1.0    1.0  1.0
+         gauss          2.0    2.0  3.0
+         huber          0.0    0.0  0.0
+         mean           0.0    0.0  0.0
+         median         3.0    2.0  3.0
+         owa            4.0    7.0  6.0
+         symowa_ext     0.0    1.0  1.0
+         symowa_med     0.0    1.0  1.0
+         trim           0.0    2.0  1.0
+         vw             3.0    4.0  3.0
+energy   absvw          4.0    4.0  5.0
+         gauss          3.0    4.0  4.0
+         huber          1.0    1.0  1.0
+         mean           0.0    0.0  0.0
+         median         2.0    2.0  2.0
+         owa            4.0    6.0  4.0
+         symowa_ext     0.0    1.0  1.0
+         symowa_med     0.0    2.0  1.0
+         trim           0.0    2.0  1.0
+         vw             4.0    6.0  5.0
+limiter  absvw          2.0    2.0  2.0
+         gauss          2.0    3.0  3.0
+         huber          0.0    1.0  0.0
+         mean           0.0    0.0  0.0
+         median         4.0    3.0  4.0
+         owa            5.0    7.0  6.0
+         symowa_ext     0.0    2.0  3.0
+         symowa_med     1.0    3.0  3.0
+         trim           1.0    3.0  3.0
+         vw             5.0    5.0  5.0
+saturate absvw          9.0    NaN  NaN
+         huber          0.0    9.0  9.0
+         mean           0.0    0.0  0.0
+         median         8.0    NaN  NaN
+         symowa_ext     0.0    NaN  9.0
+         symowa_med     0.0    NaN  9.0
+         trim           9.0    NaN  9.0
+
+rescued cells (of 10 forces x 3 kinds) per scheme (any strength in grid):
+ {'cfl': 7, 'damp': 29, 'drag': 30, 'energy': 30, 'limiter': 30, 'saturate': 14, 'vel_shrink': 0}
+non-mean forces rescued (of 27): {'cfl': 4, 'damp': 26, 'drag': 27, 'energy': 27, 'limiter': 27, 'saturate': 11, 'vel_shrink': 0}
+
+=== alive/dead at minimal rescue x1, x2, x4 (mean over graphs; non-mean forces only; rescue rows exist only where rescued) ===
+                  n   fail   dead  alive     life  ac_final    ari
+scheme   factor                                                   
+cfl      1.0     12  0.000  0.000  0.906  2000.00     1.129  0.486
+         2.0     12  0.000  0.000  0.906  2000.00     1.129  0.403
+         4.0     12  0.000  0.000  0.906  2000.00     1.129  0.403
+damp     1.0     78  0.000  0.853  0.103   331.75     0.000  0.444
+         2.0     78  0.000  0.973  0.026   149.25     0.000  0.409
+         4.0     78  0.051  0.915  0.030   101.25     0.000  0.546
+drag     1.0     81  0.000  0.448  0.285   912.50     0.067  0.421
+         2.0     81  0.000  0.835  0.037   200.00     0.026  0.368
+         4.0     81  0.000  0.966  0.008   141.00     0.013  0.447
+energy   1.0     81  0.000  0.582  0.355   719.50     0.000  0.424
+         2.0     81  0.000  0.656  0.309   433.00     0.000  0.406
+         4.0     81  0.000  0.660  0.293   275.50     0.000  0.476
+limiter  1.0     81  0.000  0.316  0.492  1000.50     0.090  0.418
+         2.0     81  0.000  0.576  0.204   165.00     0.043  0.510
+         4.0     81  0.000  0.756  0.116    61.00     0.022  0.505
+saturate 1.0     33  0.000  0.000  0.977  2000.00     1.275  0.420
+         2.0     33  0.015  0.000  0.962  2000.00     1.144  0.303
+         4.0     33  0.011  0.000  0.966  2000.00     1.022  0.395
+
+=== per force at x1: alive_frac/dead_frac/lifetime/ARI ===
+                     n  min_param  fail  dead  alive     life   ari
+scheme   force                                                     
+cfl      huber       3       2.00   0.0  0.00   1.00  2000.00  0.33
+         symowa_ext  3       2.00   0.0  0.00   0.83  2000.00  0.28
+         symowa_med  3       2.00   0.0  0.00   0.92  2000.00  0.67
+         trim        3       0.05   0.0  0.00   0.88  2000.00  0.67
+damp     absvw       9       0.10   0.0  0.74   0.26    66.50  0.46
+         gauss       9       0.10   0.0  0.93   0.07    53.50  0.54
+         huber       9       0.00   0.0  0.62   0.25  1725.50  0.22
+         median      9       0.03   0.0  0.88   0.07   277.50  0.58
+         owa         6       0.20   0.0  1.00   0.00    39.25  1.00
+         symowa_ext  9       0.01   0.0  1.00   0.00   634.00  0.21
+         symowa_med  9       0.01   0.0  0.97   0.00   910.00  0.23
+         trim        9       0.01   0.0  0.58   0.24  1378.50  0.00
+         vw          9       0.30   0.0  1.00   0.00    40.00  0.95
+drag     absvw       9       0.03   0.0  0.68   0.32   808.50  0.34
+         gauss       9       0.10   0.0  0.81   0.19   191.00  0.43
+         huber       9       0.01   0.0  0.00   0.72  2000.00  0.23
+         median      9       0.30   0.0  0.12   0.14   192.00  0.80
+         owa         9      10.00   0.0  0.93   0.07    16.50  0.67
+         symowa_ext  9       0.03   0.0  0.49   0.11   924.00  0.04
+         symowa_med  9       0.03   0.0  0.00   0.56  1961.00  0.56
+         trim        9       0.03   0.0  0.00   0.46  1131.50  0.36
+         vw          9       0.30   0.0  1.00   0.00    35.50  0.36
+energy   absvw       9       0.30   0.0  0.75   0.25   628.50  0.64
+         gauss       9       0.30   0.0  0.07   0.86  2000.00  0.46
+         huber       9       0.01   0.0  0.00   1.00  2000.00  0.00
+         median      9       0.03   0.0  0.86   0.08   330.00  0.71
+         owa         9       0.30   0.0  0.89   0.11    32.50  1.00
+         symowa_ext  9       0.01   0.0  0.72   0.15   719.50  0.10
+         symowa_med  9       0.01   0.0  0.68   0.24   964.00  0.23
+         trim        9       0.01   0.0  0.36   0.40  1850.50  0.00
+         vw          9       0.60   0.0  0.90   0.10    86.00  0.67
+limiter  absvw       9       3.00   0.0  0.00   0.65  2000.00  0.34
+         gauss       9       1.00   0.0  0.56   0.38   631.50  0.36
+         huber       9      30.00   0.0  0.00   1.00  2000.00  0.00
+         median      9       0.30   0.0  0.07   0.33   117.50  0.80
+         owa         9       0.03   0.0  1.00   0.00    17.00  0.73
+         symowa_ext  9       3.00   0.0  0.21   0.61  2000.00  0.05
+         symowa_med  9       1.00   0.0  0.01   0.53  2000.00  0.45
+         trim        9       1.00   0.0  0.00   0.93  2000.00  0.33
+         vw          9       0.10   0.0  1.00   0.00    19.00  0.70
+saturate absvw       3       0.00   0.0  0.00   1.00  2000.00  1.00
+         huber       9       0.00   0.0  0.00   1.00  2000.00  0.00
+         median      3       0.01   0.0  0.00   1.00  2000.00  1.00
+         symowa_ext  6      50.00   0.0  0.00   0.92  2000.00  0.31
+         symowa_med  6      50.00   0.0  0.00   0.96  2000.00  0.33
+         trim        6       0.00   0.0  0.00   1.00  2000.00  0.67

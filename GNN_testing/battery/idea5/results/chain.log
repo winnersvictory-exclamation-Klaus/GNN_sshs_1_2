@@ -1,0 +1,41 @@
+=== t08_rewiring.py small 14:38:34
+=== t08_rewiring.py full 14:39:56
+=== t08_rewiring.py done rc=0 14:43:07
+=== t03_mode_selective.py small 14:43:07
+=== t03_mode_selective.py full 14:44:40
+=== t03_mode_selective.py done rc=0 14:48:33
+=== t09_eps_bridges.py small 14:48:33
+=== t09_eps_bridges.py full 14:49:56
+=== t09_eps_bridges.py done rc=0 14:55:06
+=== t10_equal_cost.py small 14:55:06
+=== t10_equal_cost.py full 14:55:45
+=== t10_equal_cost.py done rc=0 14:57:51
+=== t12_partition_hold.py small 14:57:51
+=== t12_partition_hold.py full 14:58:38
+=== t12_partition_hold.py done rc=0 15:01:14
+=== t07_plate.py small 15:01:14
+=== t07_plate.py full 15:02:05
+=== t07_plate.py done rc=0 15:10:19
+=== t04_nonlinear_bases.py small 15:10:19
+=== t04_nonlinear_bases.py full 15:10:53
+=== t04_nonlinear_bases.py done rc=0 15:13:12
+=== t06_startup.py small 15:13:12
+=== t06_startup.py full 15:13:44
+=== t06_startup.py done rc=0 15:16:43
+=== t11_stimulus.py small 15:16:43
+=== t11_stimulus.py full 15:17:06
+=== t11_stimulus.py done rc=0 15:18:25
+=== t13_damping_rescue.py small 15:18:25
+=== t13_damping_rescue.py full 15:21:50
+=== t13_damping_rescue.py done rc=0 15:25:37
+=== t15_long_horizon.py small 15:25:37
+=== t15_long_horizon.py full 15:26:02
+=== t15_long_horizon.py done rc=0 15:28:51
+=== t16_neg_controls.py small 15:28:51
+=== t16_neg_controls.py full 15:28:58
+=== t16_neg_controls.py done rc=0 15:29:19
+CHAIN_DONE
+=== t12b_t4neg_map.py small 15:29:24
+=== t12b_t4neg_map.py full 15:30:03
+=== t12b_t4neg_map.py done rc=0 15:32:33
+CHAIN2_DONE

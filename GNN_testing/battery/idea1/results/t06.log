@@ -1,0 +1,43 @@
+/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/idea1/t06_selectivity.py:45: RuntimeWarning: All-NaN slice encountered
+  row[f"low_t{t}"] = float(np.nanmedian(me["low"][t])); row[f"high_t{t}"] = float(np.nanmedian(me["high"][t]))
+/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/idea1/t06_selectivity.py:45: RuntimeWarning: All-NaN slice encountered
+  row[f"low_t{t}"] = float(np.nanmedian(me["low"][t])); row[f"high_t{t}"] = float(np.nanmedian(me["high"][t]))
+/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/idea1/t06_selectivity.py:45: RuntimeWarning: All-NaN slice encountered
+  row[f"low_t{t}"] = float(np.nanmedian(me["low"][t])); row[f"high_t{t}"] = float(np.nanmedian(me["high"][t]))
+/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/idea1/t06_selectivity.py:45: RuntimeWarning: All-NaN slice encountered
+  row[f"low_t{t}"] = float(np.nanmedian(me["low"][t])); row[f"high_t{t}"] = float(np.nanmedian(me["high"][t]))
+/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/idea1/t06_selectivity.py:45: RuntimeWarning: All-NaN slice encountered
+  row[f"low_t{t}"] = float(np.nanmedian(me["low"][t])); row[f"high_t{t}"] = float(np.nanmedian(me["high"][t]))
+/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/idea1/t06_selectivity.py:45: RuntimeWarning: All-NaN slice encountered
+  row[f"low_t{t}"] = float(np.nanmedian(me["low"][t])); row[f"high_t{t}"] = float(np.nanmedian(me["high"][t]))
+/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/idea1/t06_selectivity.py:45: RuntimeWarning: All-NaN slice encountered
+  row[f"low_t{t}"] = float(np.nanmedian(me["low"][t])); row[f"high_t{t}"] = float(np.nanmedian(me["high"][t]))
+/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/idea1/t06_selectivity.py:45: RuntimeWarning: All-NaN slice encountered
+  row[f"low_t{t}"] = float(np.nanmedian(me["low"][t])); row[f"high_t{t}"] = float(np.nanmedian(me["high"][t]))
+/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/idea1/t06_selectivity.py:45: RuntimeWarning: All-NaN slice encountered
+  row[f"low_t{t}"] = float(np.nanmedian(me["low"][t])); row[f"high_t{t}"] = float(np.nanmedian(me["high"][t]))
+/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/idea1/t06_selectivity.py:45: RuntimeWarning: All-NaN slice encountered
+  row[f"low_t{t}"] = float(np.nanmedian(me["low"][t])); row[f"high_t{t}"] = float(np.nanmedian(me["high"][t]))
+/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/idea1/t06_selectivity.py:45: RuntimeWarning: All-NaN slice encountered
+  row[f"low_t{t}"] = float(np.nanmedian(me["low"][t])); row[f"high_t{t}"] = float(np.nanmedian(me["high"][t]))
+/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/idea1/t06_selectivity.py:45: RuntimeWarning: All-NaN slice encountered
+  row[f"low_t{t}"] = float(np.nanmedian(me["low"][t])); row[f"high_t{t}"] = float(np.nanmedian(me["high"][t]))
+/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/idea1/t06_selectivity.py:45: RuntimeWarning: All-NaN slice encountered
+  row[f"low_t{t}"] = float(np.nanmedian(me["low"][t])); row[f"high_t{t}"] = float(np.nanmedian(me["high"][t]))
+/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/idea1/t06_selectivity.py:45: RuntimeWarning: All-NaN slice encountered
+  row[f"low_t{t}"] = float(np.nanmedian(me["low"][t])); row[f"high_t{t}"] = float(np.nanmedian(me["high"][t]))
+/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/idea1/t06_selectivity.py:45: RuntimeWarning: All-NaN slice encountered
+  row[f"low_t{t}"] = float(np.nanmedian(me["low"][t])); row[f"high_t{t}"] = float(np.nanmedian(me["high"][t]))
+/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/idea1/t06_selectivity.py:45: RuntimeWarning: All-NaN slice encountered
+  row[f"low_t{t}"] = float(np.nanmedian(me["low"][t])); row[f"high_t{t}"] = float(np.nanmedian(me["high"][t]))
+/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/idea1/t06_selectivity.py:45: RuntimeWarning: All-NaN slice encountered
+  row[f"low_t{t}"] = float(np.nanmedian(me["low"][t])); row[f"high_t{t}"] = float(np.nanmedian(me["high"][t]))
+/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/idea1/t06_selectivity.py:45: RuntimeWarning: All-NaN slice encountered
+  row[f"low_t{t}"] = float(np.nanmedian(me["low"][t])); row[f"high_t{t}"] = float(np.nanmedian(me["high"][t]))
+/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/idea1/t06_selectivity.py:45: RuntimeWarning: All-NaN slice encountered
+  row[f"low_t{t}"] = float(np.nanmedian(me["low"][t])); row[f"high_t{t}"] = float(np.nanmedian(me["high"][t]))
+/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/idea1/t06_selectivity.py:45: RuntimeWarning: All-NaN slice encountered
+  row[f"low_t{t}"] = float(np.nanmedian(me["low"][t])); row[f"high_t{t}"] = float(np.nanmedian(me["high"][t]))
+/Users/aidenkoh/Documents/GitHub/GNN_testing/battery/idea1/t06_selectivity.py:45: RuntimeWarning: All-NaN slice encountered
+  row[f"low_t{t}"] = float(np.nanmedian(me["low"][t])); row[f"high_t{t}"] = float(np.nanmedian(me["high"][t]))
+120 52.179396867752075

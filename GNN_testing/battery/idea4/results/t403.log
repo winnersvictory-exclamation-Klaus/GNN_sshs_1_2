@@ -1,0 +1,6 @@
+A c=0.5  pred_fail&obs_fail=0 pred_fail&!obs=0 pred_ok&obs_fail=0 pred_ok&!obs=378 ambiguous=0
+A c=1.0  pred_fail&obs_fail=28 pred_fail&!obs=0 pred_ok&obs_fail=0 pred_ok&!obs=350 ambiguous=0
+A c=1.4  pred_fail&obs_fail=94 pred_fail&!obs=0 pred_ok&obs_fail=0 pred_ok&!obs=284 ambiguous=0
+A c=1.8  pred_fail&obs_fail=244 pred_fail&!obs=0 pred_ok&obs_fail=0 pred_ok&!obs=134 ambiguous=0
+B c=0.5  pred_fail&obs_fail=184 pred_fail&!obs=0 pred_ok&obs_fail=0 pred_ok&!obs=266 ambiguous=0  n_neg_g>0 vectors=173
+B c=1.0  pred_fail&obs_fail=274 pred_fail&!obs=0 pred_ok&obs_fail=1 pred_ok&!obs=175 ambiguous=0  n_neg_g>0 vectors=173

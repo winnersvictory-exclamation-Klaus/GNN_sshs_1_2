@@ -1,0 +1,25 @@
+c              0.5   1.0
+force                   
+absvw         0.00  1.00
+amp           0.00  0.01
+amp_gated     0.00  0.62
+blend_agree   0.56  0.68
+edge_memory   0.00  0.00
+gauss         0.99  1.00
+huber         0.00  0.01
+huber_anneal  0.00  0.01
+huber_global  0.00  0.01
+huber_local   0.18  0.90
+mean          0.00  0.00
+median        0.54  0.90
+odd_owa       0.00  0.02
+odd_vw        0.00  0.02
+owa           1.00  1.00
+owa_mc        0.68  0.74
+symowa_ext    0.00  0.25
+symowa_med    0.08  0.49
+tanh          0.00  0.00
+trim          0.30  0.64
+trim_mc       0.14  0.54
+vw            1.00  1.00
+vw_mc         1.00  1.00
