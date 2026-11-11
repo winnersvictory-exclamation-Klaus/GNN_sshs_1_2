@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/Users/aidenkoh/Documents/GitHub/GNN_sshs_1_2/GNN_testing/battery/idea6/t613_symmetry.py", line 2, in <module>
+    import i6lib as L
+  File "/Users/aidenkoh/Documents/GitHub/GNN_sshs_1_2/GNN_testing/battery/idea6/i6lib.py", line 5, in <module>
+    import common as C          # noqa: E402  (pins BLAS threads)
+    ^^^^^^^^^^^^^^^^^^
+  File "/Users/aidenkoh/Documents/GitHub/GNN_sshs_1_2/GNN_testing/battery/common.py", line 47, in <module>
+    import wave_test as wt  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aidenkoh/Documents/GitHub/GNN_sshs_1_2/GNN_testing/wave_test.py", line 51, in <module>
+    import rank_experiment as rx  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ModuleNotFoundError: No module named 'rank_experiment'

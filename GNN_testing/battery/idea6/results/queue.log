@@ -8,3 +8,8 @@ t610_interaction exit=0 secs=764
 t608_modes exit=0 secs=41
 t611_partition exit=0 secs=549
 t612_stimulus exit=1 secs=1
+t613_symmetry exit=1 secs=2
+t614_rescue exit=1 secs=1
+t616_long exit=1 secs=1
+t617_neg exit=1 secs=1
+ALLDONE
