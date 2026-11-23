@@ -153,7 +153,7 @@ def aggregate(g: G, u: np.ndarray, kind: str) -> np.ndarray:
     return (coef * sv).sum(-1) / coef.sum(-1)
 
 
-def simulate(g: G, agg: str, dyn: str, u0: np.ndarray, steps=T, c=C, eta=ETA):
+def simulate(g: G, agg: str, dyn: str, u0: np.ndarray, steps=T, c=C, eta=ETA, zero_failed=True):
     """반환 traj (steps+1,R,n), failed (R,)."""
     Rn, n = u0.shape
     X = np.empty((steps + 1, Rn, n))
@@ -166,7 +166,8 @@ def simulate(g: G, agg: str, dyn: str, u0: np.ndarray, steps=T, c=C, eta=ETA):
             nxt = cur + eta * f if dyn == "diff" else 2 * cur - prev + c * c * f
             bad = ~(np.abs(nxt) < FAIL_AMP).all(axis=1)
             failed |= bad
-            nxt[failed] = 0.0
+            if zero_failed:
+                nxt[failed] = 0.0
             cur_old = cur
             prev, cur = (cur_old, nxt)
             X[t + 1] = cur
