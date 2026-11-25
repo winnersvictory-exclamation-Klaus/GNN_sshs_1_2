@@ -1,0 +1,201 @@
+{
+  "environment": {
+    "python": "3.15.2",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1"
+  },
+  "checks": [
+    {
+      "part": 1,
+      "check": "p1_force_impl_vs_dense",
+      "value": 2.2898349882893854e-16,
+      "tol": 1e-13,
+      "passed": 1,
+      "hard": 1
+    },
+    {
+      "part": 1,
+      "check": "p1_bridge_force_hand",
+      "value": 9.679756995950584e-16,
+      "tol": "abs<=1e-15 and rel<=1e-12",
+      "passed": 1,
+      "hard": 1
+    },
+    {
+      "part": 1,
+      "check": "p1_bridge_force_sign",
+      "value": 60,
+      "tol": "60/60 endpoints",
+      "passed": 1,
+      "hard": 1
+    },
+    {
+      "part": 1,
+      "check": "p1_bridge_flux_mean0.5_huber0.125",
+      "value": 4.440892098500626e-16,
+      "tol": 1e-15,
+      "passed": 1,
+      "hard": 1
+    },
+    {
+      "part": 1,
+      "check": "p1_zero_force_off_endpoints",
+      "value": 0.0,
+      "tol": 0.0,
+      "passed": 1,
+      "hard": 1
+    },
+    {
+      "part": 1,
+      "check": "p1_linear_mode_wave_undamped",
+      "value": 1.5654075258275668e-12,
+      "tol": 1e-09,
+      "passed": 1,
+      "hard": 1
+    },
+    {
+      "part": 1,
+      "check": "p1_linear_mode_wave_damped",
+      "value": 9.195977312970172e-13,
+      "tol": 1e-09,
+      "passed": 1,
+      "hard": 1
+    },
+    {
+      "part": 1,
+      "check": "p1_linear_mode_diffusion",
+      "value": 9.087175456556906e-14,
+      "tol": 1e-09,
+      "passed": 1,
+      "hard": 1
+    },
+    {
+      "part": 1,
+      "check": "p1_mean_huber_sum_dF_block_start",
+      "value": 1.3877787807814457e-17,
+      "tol": 1e-12,
+      "passed": 1,
+      "hard": 0
+    },
+    {
+      "part": 1,
+      "check": "p1_runs_failed",
+      "value": 0,
+      "tol": "reported",
+      "passed": 1,
+      "hard": 0
+    },
+    {
+      "part": 2,
+      "check": "p2_graph_count_unique",
+      "value": 48,
+      "tol": "==48",
+      "passed": 1,
+      "hard": 1
+    },
+    {
+      "part": 2,
+      "check": "p2_inits_share_no_value_with_t310",
+      "value": 0,
+      "tol": "==0 graphs",
+      "passed": 1,
+      "hard": 1
+    },
+    {
+      "part": 2,
+      "check": "p2_strict_positive_gap_implies_exact",
+      "value": 0,
+      "tol": "==0 violations",
+      "passed": 1,
+      "hard": 1
+    },
+    {
+      "part": 2,
+      "check": "p2_strict_negative_gap_implies_not_exact",
+      "value": 0,
+      "tol": "==0 violations",
+      "passed": 1,
+      "hard": 1
+    },
+    {
+      "part": 2,
+      "check": "p2_exact_ties",
+      "value": 0,
+      "tol": "reported",
+      "passed": 1,
+      "hard": 0
+    },
+    {
+      "part": 2,
+      "check": "p2_unscorable_rows",
+      "value": 0,
+      "tol": "reported",
+      "passed": 1,
+      "hard": 0
+    }
+  ],
+  "hard_failures": [],
+  "gate": {
+    "huber_diffusion_h0.25": {
+      "run_failures": 0,
+      "graphs_any_failure": 0,
+      "gate_exceeded": 0
+    },
+    "huber_diffusion_h0.5": {
+      "run_failures": 0,
+      "graphs_any_failure": 0,
+      "gate_exceeded": 0
+    },
+    "huber_wave_h0.25": {
+      "run_failures": 0,
+      "graphs_any_failure": 0,
+      "gate_exceeded": 0
+    },
+    "huber_wave_h0.5": {
+      "run_failures": 0,
+      "graphs_any_failure": 0,
+      "gate_exceeded": 0
+    },
+    "huber_local_diffusion_h0.25": {
+      "run_failures": 0,
+      "graphs_any_failure": 0,
+      "gate_exceeded": 0
+    },
+    "huber_local_diffusion_h0.5": {
+      "run_failures": 0,
+      "graphs_any_failure": 0,
+      "gate_exceeded": 0
+    },
+    "huber_local_wave_h0.25": {
+      "run_failures": 0,
+      "graphs_any_failure": 0,
+      "gate_exceeded": 0
+    },
+    "huber_local_wave_h0.5": {
+      "run_failures": 0,
+      "graphs_any_failure": 0,
+      "gate_exceeded": 0
+    },
+    "mean_diffusion_h0.25": {
+      "run_failures": 0,
+      "graphs_any_failure": 0,
+      "gate_exceeded": 0
+    },
+    "mean_diffusion_h0.5": {
+      "run_failures": 0,
+      "graphs_any_failure": 0,
+      "gate_exceeded": 0
+    },
+    "mean_wave_h0.25": {
+      "run_failures": 0,
+      "graphs_any_failure": 0,
+      "gate_exceeded": 0
+    },
+    "mean_wave_h0.5": {
+      "run_failures": 0,
+      "graphs_any_failure": 0,
+      "gate_exceeded": 0
+    }
+  }
+}

@@ -1,0 +1,3 @@
+# Orchestrator review — decision
+
+Accepted. I checked the 32 archive warm-up matches, 512 start records, 128 fork AUCs from the edge scores, and the graph-paired ARIs against 003. The unweighted continuation retains the late low-pass gain over pure Mean at both step sizes; keeping symmetric conductances adds no demonstrated benefit. That result is conditional on retaining both warm-up states and using low-pass: neither fork reproduces the continued-adaptive raw cut. The next test freezes the original endpoint coefficients without symmetrizing, so it can check whether that change explains the symmetric fork's loss.

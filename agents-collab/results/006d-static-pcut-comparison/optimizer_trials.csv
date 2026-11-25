@@ -1,0 +1,193 @@
+graph,start,rayleigh,grad_inf,center_residual,optimizer_success,optimizer_status,optimizer_message,iterations,selected
+two_block:clique_24x24_bridges1_wb1_s0,fiedler,0.002553126409531023,6.328966403494878e-06,3.197442310920451e-14,0,2,Desired error not necessarily achieved due to precision loss.,145,0
+two_block:clique_24x24_bridges1_wb1_s0,random_1,0.0025531264095310226,6.772206842993629e-06,8.881784197001252e-16,0,2,Desired error not necessarily achieved due to precision loss.,137,1
+two_block:clique_24x24_bridges1_wb1_s0,random_2,0.0025531264095310243,8.982736207773387e-06,8.881784197001252e-16,0,2,Desired error not necessarily achieved due to precision loss.,117,0
+two_block:clique_24x24_bridges1_wb1_s0,random_3,0.0025531264095310234,7.584520591552655e-06,1.687538997430238e-14,0,2,Desired error not necessarily achieved due to precision loss.,122,0
+two_block:clique_24x24_bridges1_wb1_s1,fiedler,0.002553126409531025,8.566727111016578e-06,5.329070518200751e-15,0,2,Desired error not necessarily achieved due to precision loss.,143,0
+two_block:clique_24x24_bridges1_wb1_s1,random_1,0.0025531264095310226,6.010449980856699e-06,6.217248937900877e-15,0,2,Desired error not necessarily achieved due to precision loss.,139,1
+two_block:clique_24x24_bridges1_wb1_s1,random_2,0.0025531264095310226,8.80167237507544e-06,4.440892098500626e-15,0,2,Desired error not necessarily achieved due to precision loss.,121,0
+two_block:clique_24x24_bridges1_wb1_s1,random_3,0.0025531264095310234,7.749185188541622e-06,3.375077994860476e-14,0,2,Desired error not necessarily achieved due to precision loss.,121,0
+two_block:clique_24x24_bridges1_wb1_s2,fiedler,0.002553126409531025,9.809285447054828e-06,2.6645352591003757e-15,0,2,Desired error not necessarily achieved due to precision loss.,142,0
+two_block:clique_24x24_bridges1_wb1_s2,random_1,0.002553126409531024,8.2746800846808e-06,4.263256414560601e-14,0,2,Desired error not necessarily achieved due to precision loss.,135,0
+two_block:clique_24x24_bridges1_wb1_s2,random_2,0.0025531264095310234,1.0062373581369312e-05,2.398081733190338e-14,0,2,Desired error not necessarily achieved due to precision loss.,124,1
+two_block:clique_24x24_bridges1_wb1_s2,random_3,0.0025531264095310234,1.1201373048886661e-05,8.881784197001252e-16,0,2,Desired error not necessarily achieved due to precision loss.,118,0
+two_block:clique_24x24_bridges1_wb1_s3,fiedler,0.002553126409531036,1.5091790794784753e-05,1.7763568394002505e-15,0,2,Desired error not necessarily achieved due to precision loss.,134,0
+two_block:clique_24x24_bridges1_wb1_s3,random_1,0.0025531264095310217,4.45071060491825e-06,6.217248937900877e-15,0,2,Desired error not necessarily achieved due to precision loss.,142,1
+two_block:clique_24x24_bridges1_wb1_s3,random_2,0.002553126409531028,1.1819062407804764e-05,1.865174681370263e-14,0,2,Desired error not necessarily achieved due to precision loss.,129,0
+two_block:clique_24x24_bridges1_wb1_s3,random_3,0.00255312640953104,1.4922313096417393e-05,5.329070518200751e-15,0,2,Desired error not necessarily achieved due to precision loss.,111,0
+two_block:clique_24x24_bridges4_wb1_s0,fiedler,0.010159818256693494,1.2361797040515848e-05,5.329070518200751e-15,0,2,Desired error not necessarily achieved due to precision loss.,133,0
+two_block:clique_24x24_bridges4_wb1_s0,random_1,0.010159818256693503,1.5866887478311123e-05,1.7763568394002505e-15,0,2,Desired error not necessarily achieved due to precision loss.,120,0
+two_block:clique_24x24_bridges4_wb1_s0,random_2,0.010159818256693496,1.3163809326182519e-05,3.552713678800501e-15,0,2,Desired error not necessarily achieved due to precision loss.,136,0
+two_block:clique_24x24_bridges4_wb1_s0,random_3,0.010159818256693489,1.3176820232300638e-05,7.105427357601002e-15,0,2,Desired error not necessarily achieved due to precision loss.,109,1
+two_block:clique_24x24_bridges4_wb1_s1,fiedler,0.010159818256693497,1.117278300861134e-05,4.440892098500626e-15,0,2,Desired error not necessarily achieved due to precision loss.,133,0
+two_block:clique_24x24_bridges4_wb1_s1,random_1,0.010159818256693489,1.0523911673917039e-05,1.3322676295501878e-14,0,2,Desired error not necessarily achieved due to precision loss.,125,0
+two_block:clique_24x24_bridges4_wb1_s1,random_2,0.010159818256693483,1.1421479911313114e-05,2.042810365310288e-14,0,2,Desired error not necessarily achieved due to precision loss.,158,1
+two_block:clique_24x24_bridges4_wb1_s1,random_3,0.010159818256693503,1.550761908375615e-05,4.440892098500626e-15,0,2,Desired error not necessarily achieved due to precision loss.,109,0
+two_block:clique_24x24_bridges4_wb1_s2,fiedler,0.01015981825669349,1.1621227868388942e-05,1.4210854715202004e-14,0,2,Desired error not necessarily achieved due to precision loss.,133,0
+two_block:clique_24x24_bridges4_wb1_s2,random_1,0.010159818256693487,7.802226125336667e-06,1.7763568394002505e-15,0,2,Desired error not necessarily achieved due to precision loss.,129,1
+two_block:clique_24x24_bridges4_wb1_s2,random_2,0.010159818256693489,1.213153237127756e-05,8.881784197001252e-16,0,2,Desired error not necessarily achieved due to precision loss.,130,0
+two_block:clique_24x24_bridges4_wb1_s2,random_3,0.010159818256693489,1.1263494333448374e-05,1.2434497875801753e-14,0,2,Desired error not necessarily achieved due to precision loss.,109,0
+two_block:clique_24x24_bridges4_wb1_s3,fiedler,0.010159818256693504,1.4406652463905614e-05,5.329070518200751e-15,0,2,Desired error not necessarily achieved due to precision loss.,127,0
+two_block:clique_24x24_bridges4_wb1_s3,random_1,0.010159818256693487,1.0376468903346148e-05,1.7763568394002505e-14,0,2,Desired error not necessarily achieved due to precision loss.,136,1
+two_block:clique_24x24_bridges4_wb1_s3,random_2,0.1180741335296288,2.883064173412881,3.774758283725532e-14,0,2,Desired error not necessarily achieved due to precision loss.,67,0
+two_block:clique_24x24_bridges4_wb1_s3,random_3,0.010159818256693513,1.60620512225703e-05,3.552713678800501e-15,0,2,Desired error not necessarily achieved due to precision loss.,107,0
+two_block:clique_16x32_bridges1_wb1_s0,fiedler,0.004260129797097654,1.1606078583937043e-05,4.440892098500626e-16,0,2,Desired error not necessarily achieved due to precision loss.,139,1
+two_block:clique_16x32_bridges1_wb1_s0,random_1,0.004260129797097656,1.0885059087158746e-05,3.863576125695545e-14,0,2,Desired error not necessarily achieved due to precision loss.,143,0
+two_block:clique_16x32_bridges1_wb1_s0,random_2,0.004260129797097659,1.3703763343621703e-05,5.329070518200751e-15,0,2,Desired error not necessarily achieved due to precision loss.,129,0
+two_block:clique_16x32_bridges1_wb1_s0,random_3,0.004260129797097809,3.916493597664855e-05,1.6431300764452317e-14,0,2,Desired error not necessarily achieved due to precision loss.,132,0
+two_block:clique_16x32_bridges1_wb1_s1,fiedler,0.004260129797097658,1.4233071789801752e-05,2.6645352591003757e-15,0,2,Desired error not necessarily achieved due to precision loss.,132,0
+two_block:clique_16x32_bridges1_wb1_s1,random_1,0.004260129797097654,8.112687511668912e-06,5.240252676230739e-14,0,2,Desired error not necessarily achieved due to precision loss.,147,0
+two_block:clique_16x32_bridges1_wb1_s1,random_2,0.004260129797097655,1.0061208981257652e-05,1.0658141036401503e-14,0,2,Desired error not necessarily achieved due to precision loss.,131,0
+two_block:clique_16x32_bridges1_wb1_s1,random_3,0.004260129797097652,6.99989608189417e-06,2.5757174171303632e-14,0,2,Desired error not necessarily achieved due to precision loss.,145,1
+two_block:clique_16x32_bridges1_wb1_s2,fiedler,0.004260129797097654,1.1304469728079091e-05,2.6645352591003757e-15,0,2,Desired error not necessarily achieved due to precision loss.,143,1
+two_block:clique_16x32_bridges1_wb1_s2,random_1,0.004260129797097655,9.412833555891287e-06,3.552713678800501e-14,0,2,Desired error not necessarily achieved due to precision loss.,146,0
+two_block:clique_16x32_bridges1_wb1_s2,random_2,0.004260129797097654,1.0938972578094711e-05,5.773159728050814e-15,0,2,Desired error not necessarily achieved due to precision loss.,140,0
+two_block:clique_16x32_bridges1_wb1_s2,random_3,0.004260129797097655,9.666457055974418e-06,1.0658141036401503e-14,0,2,Desired error not necessarily achieved due to precision loss.,146,0
+two_block:clique_16x32_bridges1_wb1_s3,fiedler,0.004260129797097657,1.1483469230887718e-05,0.0,0,2,Desired error not necessarily achieved due to precision loss.,137,0
+two_block:clique_16x32_bridges1_wb1_s3,random_1,0.004260129797097654,1.1046221255433477e-05,1.3322676295501878e-15,0,2,Desired error not necessarily achieved due to precision loss.,142,1
+two_block:clique_16x32_bridges1_wb1_s3,random_2,0.004260129797097655,1.1538340676411728e-05,8.881784197001252e-16,0,2,Desired error not necessarily achieved due to precision loss.,125,0
+two_block:clique_16x32_bridges1_wb1_s3,random_3,0.004260129797097655,1.2728463331588847e-05,3.019806626980426e-14,0,2,Desired error not necessarily achieved due to precision loss.,143,0
+two_block:clique_16x32_bridges4_wb1_s0,fiedler,0.016847603619883675,1.7908956016093186e-05,1.7763568394002505e-15,0,2,Desired error not necessarily achieved due to precision loss.,144,0
+two_block:clique_16x32_bridges4_wb1_s0,random_1,0.01684760361988367,1.6038120114516753e-05,1.2434497875801753e-14,0,2,Desired error not necessarily achieved due to precision loss.,133,1
+two_block:clique_16x32_bridges4_wb1_s0,random_2,0.016847603619883696,2.26159769098795e-05,1.2434497875801753e-14,0,2,Desired error not necessarily achieved due to precision loss.,118,0
+two_block:clique_16x32_bridges4_wb1_s0,random_3,0.01684760361988367,1.760870431962921e-05,4.1300296516055823e-14,0,2,Desired error not necessarily achieved due to precision loss.,134,0
+two_block:clique_16x32_bridges4_wb1_s1,fiedler,0.016847603619883675,2.3588869106387286e-05,5.329070518200751e-15,0,2,Desired error not necessarily achieved due to precision loss.,137,1
+two_block:clique_16x32_bridges4_wb1_s1,random_1,0.01684760361988368,1.775553946852838e-05,1.865174681370263e-14,0,2,Desired error not necessarily achieved due to precision loss.,135,0
+two_block:clique_16x32_bridges4_wb1_s1,random_2,0.016847603619883675,1.3544059660610529e-05,1.3322676295501878e-14,0,2,Desired error not necessarily achieved due to precision loss.,129,0
+two_block:clique_16x32_bridges4_wb1_s1,random_3,0.016847603619883696,2.0496436493112544e-05,3.863576125695545e-14,0,2,Desired error not necessarily achieved due to precision loss.,129,0
+two_block:clique_16x32_bridges4_wb1_s2,fiedler,0.016847603619883668,1.4544671772377324e-05,4.440892098500626e-16,0,2,Desired error not necessarily achieved due to precision loss.,143,1
+two_block:clique_16x32_bridges4_wb1_s2,random_1,0.016847603619883668,1.393565767844606e-05,2.7533531010703882e-14,0,2,Desired error not necessarily achieved due to precision loss.,136,0
+two_block:clique_16x32_bridges4_wb1_s2,random_2,0.016847603619883692,2.0386142358115575e-05,1.1102230246251565e-14,0,2,Desired error not necessarily achieved due to precision loss.,127,0
+two_block:clique_16x32_bridges4_wb1_s2,random_3,0.01684760361988367,1.507770403025646e-05,9.325873406851315e-15,0,2,Desired error not necessarily achieved due to precision loss.,138,0
+two_block:clique_16x32_bridges4_wb1_s3,fiedler,0.016847603619883685,2.0214905282289402e-05,2.6645352591003757e-15,0,2,Desired error not necessarily achieved due to precision loss.,141,0
+two_block:clique_16x32_bridges4_wb1_s3,random_1,0.01684760361988368,1.9863724796337693e-05,1.1102230246251565e-14,0,2,Desired error not necessarily achieved due to precision loss.,134,0
+two_block:clique_16x32_bridges4_wb1_s3,random_2,0.01684760361988367,1.4120970480148772e-05,2.708944180085382e-14,0,2,Desired error not necessarily achieved due to precision loss.,146,1
+two_block:clique_16x32_bridges4_wb1_s3,random_3,0.016847603619883675,1.7470768189861013e-05,1.865174681370263e-14,0,2,Desired error not necessarily achieved due to precision loss.,140,0
+two_block:cycle_24x24_bridges1_wb1_s0,fiedler,0.018153151235074463,7.342787765839132e-09,1.1102230246251565e-16,1,0,Optimization terminated successfully.,64,1
+two_block:cycle_24x24_bridges1_wb1_s0,random_1,0.018153151235075948,1.1613731563941963e-07,1.1102230246251565e-16,1,0,Optimization terminated successfully.,132,0
+two_block:cycle_24x24_bridges1_wb1_s0,random_2,0.03582836422000358,0.16664707881345553,2.7755575615628914e-15,0,2,Desired error not necessarily achieved due to precision loss.,103,0
+two_block:cycle_24x24_bridges1_wb1_s0,random_3,0.018153151235082078,3.6959666237928996e-07,1.7763568394002505e-15,1,0,Optimization terminated successfully.,295,0
+two_block:cycle_24x24_bridges1_wb1_s1,fiedler,0.018153151235074463,7.938291698462994e-09,3.3306690738754696e-16,1,0,Optimization terminated successfully.,60,1
+two_block:cycle_24x24_bridges1_wb1_s1,random_1,0.01815315123507926,1.4614328225576526e-07,5.551115123125783e-16,1,0,Optimization terminated successfully.,180,0
+two_block:cycle_24x24_bridges1_wb1_s1,random_2,0.01815315123535849,1.3319094101012917e-06,5.551115123125783e-16,1,0,Optimization terminated successfully.,514,0
+two_block:cycle_24x24_bridges1_wb1_s1,random_3,0.018153151235152497,8.291532206687252e-07,2.55351295663786e-15,1,0,Optimization terminated successfully.,448,0
+two_block:cycle_24x24_bridges1_wb1_s2,fiedler,0.018153151235074463,3.844981887567157e-09,1.1102230246251565e-16,1,0,Optimization terminated successfully.,61,1
+two_block:cycle_24x24_bridges1_wb1_s2,random_1,0.018153151235075028,9.859347178259313e-08,9.992007221626409e-16,1,0,Optimization terminated successfully.,117,0
+two_block:cycle_24x24_bridges1_wb1_s2,random_2,0.018153151235254298,8.730986283435323e-07,1.1102230246251565e-15,1,0,Optimization terminated successfully.,474,0
+two_block:cycle_24x24_bridges1_wb1_s2,random_3,0.01815315123507635,1.0631574328453379e-07,5.551115123125783e-16,1,0,Optimization terminated successfully.,148,0
+two_block:cycle_24x24_bridges1_wb1_s3,fiedler,0.018153151235074463,4.664974742434049e-09,1.3322676295501878e-15,1,0,Optimization terminated successfully.,61,1
+two_block:cycle_24x24_bridges1_wb1_s3,random_1,0.018153151235075396,9.980672335731938e-08,4.440892098500626e-16,1,0,Optimization terminated successfully.,148,0
+two_block:cycle_24x24_bridges1_wb1_s3,random_2,0.01816847245135958,0.009292577191473177,1.7763568394002505e-15,0,1,Maximum number of iterations has been exceeded.,800,0
+two_block:cycle_24x24_bridges1_wb1_s3,random_3,0.018153151235080277,2.108210411687002e-07,7.771561172376096e-16,1,0,Optimization terminated successfully.,214,0
+two_block:cycle_24x24_bridges4_wb1_s0,fiedler,0.0498388908493632,8.451007097246e-09,2.275957200481571e-15,1,0,Optimization terminated successfully.,63,1
+two_block:cycle_24x24_bridges4_wb1_s0,random_1,0.049838890849369544,1.444706242501731e-07,5.551115123125783e-16,1,0,Optimization terminated successfully.,178,0
+two_block:cycle_24x24_bridges4_wb1_s0,random_2,0.04983889084936506,1.0651880468295899e-07,9.992007221626409e-16,1,0,Optimization terminated successfully.,195,0
+two_block:cycle_24x24_bridges4_wb1_s0,random_3,0.049838890849376455,2.5833133829485095e-07,1.609823385706477e-15,1,0,Optimization terminated successfully.,282,0
+two_block:cycle_24x24_bridges4_wb1_s1,fiedler,0.05806013963038057,6.1453284232182445e-09,2.7755575615628914e-16,1,0,Optimization terminated successfully.,66,0
+two_block:cycle_24x24_bridges4_wb1_s1,random_1,0.058060139630401554,3.2838927944631153e-07,6.106226635438361e-16,1,0,Optimization terminated successfully.,358,0
+two_block:cycle_24x24_bridges4_wb1_s1,random_2,0.05805777545141391,7.103430819284381e-07,2.3869795029440866e-15,1,0,Optimization terminated successfully.,489,0
+two_block:cycle_24x24_bridges4_wb1_s1,random_3,0.05805777545130911,1.3286229829344293e-07,0.0,1,0,Optimization terminated successfully.,217,1
+two_block:cycle_24x24_bridges4_wb1_s2,fiedler,0.057485452508249275,5.047173371949821e-09,3.885780586188048e-16,1,0,Optimization terminated successfully.,61,0
+two_block:cycle_24x24_bridges4_wb1_s2,random_1,0.057482217274174935,8.105619669213081e-08,1.942890293094024e-15,1,0,Optimization terminated successfully.,192,1
+two_block:cycle_24x24_bridges4_wb1_s2,random_2,0.05748221727446655,8.052606943233228e-07,5.551115123125783e-17,1,0,Optimization terminated successfully.,472,0
+two_block:cycle_24x24_bridges4_wb1_s2,random_3,0.058566648115927045,1.1530241659368778e-07,1.2490009027033011e-15,1,0,Optimization terminated successfully.,162,0
+two_block:cycle_24x24_bridges4_wb1_s3,fiedler,0.05320800341831172,6.706123750060966e-09,5.440092820663267e-15,1,0,Optimization terminated successfully.,68,0
+two_block:cycle_24x24_bridges4_wb1_s3,random_1,0.05320800341831178,3.239494418810079e-08,7.882583474838611e-15,1,0,Optimization terminated successfully.,108,0
+two_block:cycle_24x24_bridges4_wb1_s3,random_2,0.05320544242530573,2.2628614652388235e-07,2.220446049250313e-16,1,0,Optimization terminated successfully.,292,1
+two_block:cycle_24x24_bridges4_wb1_s3,random_3,0.0532080034183125,8.463857535667695e-08,6.106226635438361e-15,1,0,Optimization terminated successfully.,188,0
+two_block:cycle_16x32_bridges1_wb1_s0,fiedler,0.0197613352352643,2.3873120199441322e-09,1.1102230246251565e-16,1,0,Optimization terminated successfully.,61,1
+two_block:cycle_16x32_bridges1_wb1_s0,random_1,0.019761335235266186,1.1177338569545031e-07,4.440892098500626e-16,1,0,Optimization terminated successfully.,134,0
+two_block:cycle_16x32_bridges1_wb1_s0,random_2,0.01976133523526975,1.6149181126731685e-07,2.220446049250313e-16,1,0,Optimization terminated successfully.,205,0
+two_block:cycle_16x32_bridges1_wb1_s0,random_3,0.019761335235265787,8.856718057776224e-08,1.2212453270876722e-15,1,0,Optimization terminated successfully.,122,0
+two_block:cycle_16x32_bridges1_wb1_s1,fiedler,0.0197613352352643,2.917445998326662e-09,2.886579864025407e-15,1,0,Optimization terminated successfully.,60,1
+two_block:cycle_16x32_bridges1_wb1_s1,random_1,0.019761335235264913,6.783940861149196e-08,2.220446049250313e-16,1,0,Optimization terminated successfully.,100,0
+two_block:cycle_16x32_bridges1_wb1_s1,random_2,0.019761335235264802,8.462686659511244e-08,2.220446049250313e-16,1,0,Optimization terminated successfully.,219,0
+two_block:cycle_16x32_bridges1_wb1_s1,random_3,0.019761335235264847,6.737484154698686e-08,3.1086244689504383e-15,1,0,Optimization terminated successfully.,86,0
+two_block:cycle_16x32_bridges1_wb1_s2,fiedler,0.019761335235264302,7.696113293528817e-09,1.7763568394002505e-15,1,0,Optimization terminated successfully.,59,1
+two_block:cycle_16x32_bridges1_wb1_s2,random_1,0.01976133523526464,5.809352940106674e-08,2.4424906541753444e-15,1,0,Optimization terminated successfully.,119,0
+two_block:cycle_16x32_bridges1_wb1_s2,random_2,0.019761335235317624,5.574284750336533e-07,6.661338147750939e-16,1,0,Optimization terminated successfully.,380,0
+two_block:cycle_16x32_bridges1_wb1_s2,random_3,0.019761335235264813,7.754659535341712e-08,2.1094237467877974e-15,1,0,Optimization terminated successfully.,149,0
+two_block:cycle_16x32_bridges1_wb1_s3,fiedler,0.0197613352352643,1.5645030635585977e-09,1.5543122344752192e-15,1,0,Optimization terminated successfully.,59,1
+two_block:cycle_16x32_bridges1_wb1_s3,random_1,0.01976133523526738,1.8181271790960324e-07,3.497202527569243e-15,1,0,Optimization terminated successfully.,197,0
+two_block:cycle_16x32_bridges1_wb1_s3,random_2,0.019761335235529018,1.2419251352912065e-06,1.0547118733938987e-15,1,0,Optimization terminated successfully.,588,0
+two_block:cycle_16x32_bridges1_wb1_s3,random_3,0.019761335235268938,1.3880089065870094e-07,4.440892098500626e-16,1,0,Optimization terminated successfully.,191,0
+two_block:cycle_16x32_bridges4_wb1_s0,fiedler,0.04427882745315899,5.945625036578306e-09,1.6042722705833512e-14,1,0,Optimization terminated successfully.,62,1
+two_block:cycle_16x32_bridges4_wb1_s0,random_1,0.0442788274531604,9.945852875656301e-08,1.1046719095020308e-14,1,0,Optimization terminated successfully.,129,0
+two_block:cycle_16x32_bridges4_wb1_s0,random_2,0.04427882745320019,3.6636678224250674e-07,1.8207657603852567e-14,1,0,Optimization terminated successfully.,321,0
+two_block:cycle_16x32_bridges4_wb1_s0,random_3,0.04427882745316157,1.5152111680974412e-07,1.4710455076283324e-14,1,0,Optimization terminated successfully.,174,0
+two_block:cycle_16x32_bridges4_wb1_s1,fiedler,0.03625310040962324,9.819040916285439e-09,0.0,1,0,Optimization terminated successfully.,64,1
+two_block:cycle_16x32_bridges4_wb1_s1,random_1,0.03625310040964441,3.4029986275760355e-07,2.886579864025407e-15,1,0,Optimization terminated successfully.,241,0
+two_block:cycle_16x32_bridges4_wb1_s1,random_2,0.03625310040963253,2.714778373404807e-07,2.220446049250313e-16,1,0,Optimization terminated successfully.,262,0
+two_block:cycle_16x32_bridges4_wb1_s1,random_3,0.03625310040962812,2.462869050263993e-07,1.5543122344752192e-15,1,0,Optimization terminated successfully.,204,0
+two_block:cycle_16x32_bridges4_wb1_s2,fiedler,0.056783319180625125,2.2805364732064737e-09,7.494005416219807e-16,1,0,Optimization terminated successfully.,61,1
+two_block:cycle_16x32_bridges4_wb1_s2,random_1,0.05725064362651813,0.04169799961711403,2.0261570199409107e-15,1,0,Optimization terminated successfully.,459,0
+two_block:cycle_16x32_bridges4_wb1_s2,random_2,0.056783319180648606,4.1237048122033643e-07,2.7755575615628914e-17,1,0,Optimization terminated successfully.,421,0
+two_block:cycle_16x32_bridges4_wb1_s2,random_3,0.05678331918062943,1.805126604702972e-07,7.216449660063518e-16,1,0,Optimization terminated successfully.,290,0
+two_block:cycle_16x32_bridges4_wb1_s3,fiedler,0.03924364329250053,4.88231748259349e-09,1.1102230246251565e-16,1,0,Optimization terminated successfully.,65,1
+two_block:cycle_16x32_bridges4_wb1_s3,random_1,0.03924364329250101,5.735605139271793e-08,6.661338147750939e-16,1,0,Optimization terminated successfully.,99,0
+two_block:cycle_16x32_bridges4_wb1_s3,random_2,0.053413259820463986,0.10963874024851858,2.220446049250313e-16,0,2,Desired error not necessarily achieved due to precision loss.,300,0
+two_block:cycle_16x32_bridges4_wb1_s3,random_3,0.039243643292501226,9.564626806193854e-08,2.220446049250313e-16,1,0,Optimization terminated successfully.,108,0
+two_block:sbm_24x24_bridges1_wb1_s0,fiedler,0.008978682282393766,9.865490455812642e-09,0.0,1,0,Optimization terminated successfully.,98,1
+two_block:sbm_24x24_bridges1_wb1_s0,random_1,0.008978682282393768,1.6736397010072213e-07,4.440892098500626e-16,1,0,Optimization terminated successfully.,72,0
+two_block:sbm_24x24_bridges1_wb1_s0,random_2,0.00897868228239377,2.2174089655321164e-07,2.6645352591003757e-15,1,0,Optimization terminated successfully.,65,0
+two_block:sbm_24x24_bridges1_wb1_s0,random_3,0.008978682282393782,2.002585227540987e-07,2.6645352591003757e-15,1,0,Optimization terminated successfully.,74,0
+two_block:sbm_24x24_bridges1_wb1_s1,fiedler,0.008388384959106808,3.12933632509553e-08,1.587618925213974e-14,0,2,Desired error not necessarily achieved due to precision loss.,79,1
+two_block:sbm_24x24_bridges1_wb1_s1,random_1,0.008388384959106826,1.2570796950519403e-07,1.4988010832439613e-14,1,0,Optimization terminated successfully.,68,0
+two_block:sbm_24x24_bridges1_wb1_s1,random_2,0.008388384959106853,2.7985386894576603e-07,1.454392162258955e-14,1,0,Optimization terminated successfully.,94,0
+two_block:sbm_24x24_bridges1_wb1_s1,random_3,0.008388384959107452,8.118932463517522e-07,1.4432899320127035e-14,1,0,Optimization terminated successfully.,127,0
+two_block:sbm_24x24_bridges1_wb1_s2,fiedler,0.007965424572291883,2.9060857972655618e-08,9.992007221626409e-16,0,2,Desired error not necessarily achieved due to precision loss.,90,1
+two_block:sbm_24x24_bridges1_wb1_s2,random_1,0.007965424572291888,2.5453835182046714e-07,1.2212453270876722e-15,1,0,Optimization terminated successfully.,71,0
+two_block:sbm_24x24_bridges1_wb1_s2,random_2,0.007965424572291888,1.7427197287079446e-07,6.661338147750939e-16,1,0,Optimization terminated successfully.,77,0
+two_block:sbm_24x24_bridges1_wb1_s2,random_3,0.007965424572291898,2.0770720825973371e-07,1.4432899320127035e-15,1,0,Optimization terminated successfully.,73,0
+two_block:sbm_24x24_bridges1_wb1_s3,fiedler,0.007927739555101473,1.9405316200281353e-08,1.7763568394002505e-15,0,2,Desired error not necessarily achieved due to precision loss.,82,1
+two_block:sbm_24x24_bridges1_wb1_s3,random_1,0.007927739555101537,2.9338257385210637e-07,3.1086244689504383e-15,1,0,Optimization terminated successfully.,81,0
+two_block:sbm_24x24_bridges1_wb1_s3,random_2,0.007927739555101487,1.1202226589054896e-07,8.881784197001252e-16,1,0,Optimization terminated successfully.,78,0
+two_block:sbm_24x24_bridges1_wb1_s3,random_3,0.007927739555101487,2.0850758915280654e-07,3.9968028886505635e-15,1,0,Optimization terminated successfully.,80,0
+two_block:sbm_24x24_bridges4_wb1_s0,fiedler,0.03212688713324122,1.49536576714987e-08,2.220446049250313e-15,0,2,Desired error not necessarily achieved due to precision loss.,81,1
+two_block:sbm_24x24_bridges4_wb1_s0,random_1,0.03212688713324425,4.567698900729416e-07,8.881784197001252e-16,1,0,Optimization terminated successfully.,93,0
+two_block:sbm_24x24_bridges4_wb1_s0,random_2,0.0321268871332413,2.025015525732726e-07,1.7763568394002505e-15,1,0,Optimization terminated successfully.,71,0
+two_block:sbm_24x24_bridges4_wb1_s0,random_3,0.032126887133241334,1.5378720455427872e-07,3.9968028886505635e-15,1,0,Optimization terminated successfully.,69,0
+two_block:sbm_24x24_bridges4_wb1_s1,fiedler,0.030758143023200964,6.792191010671081e-08,2.3314683517128287e-15,0,2,Desired error not necessarily achieved due to precision loss.,74,0
+two_block:sbm_24x24_bridges4_wb1_s1,random_1,0.030758143023200953,1.6733708259678007e-07,1.9984014443252818e-15,1,0,Optimization terminated successfully.,67,1
+two_block:sbm_24x24_bridges4_wb1_s1,random_2,0.030758143023202407,4.6499037998672105e-07,0.0,1,0,Optimization terminated successfully.,107,0
+two_block:sbm_24x24_bridges4_wb1_s1,random_3,0.0307581430232496,4.08097097421428e-06,7.771561172376096e-16,1,0,Optimization terminated successfully.,483,0
+two_block:sbm_24x24_bridges4_wb1_s2,fiedler,0.03174687242845373,2.798370601908574e-08,9.992007221626409e-16,0,2,Desired error not necessarily achieved due to precision loss.,78,1
+two_block:sbm_24x24_bridges4_wb1_s2,random_1,0.03174687242845388,2.2227103615990448e-07,2.220446049250313e-16,1,0,Optimization terminated successfully.,53,0
+two_block:sbm_24x24_bridges4_wb1_s2,random_2,0.03174687242845376,1.2867293724266868e-07,7.771561172376096e-16,1,0,Optimization terminated successfully.,61,0
+two_block:sbm_24x24_bridges4_wb1_s2,random_3,0.031746872428453754,1.4281112138692093e-07,3.6637359812630166e-15,1,0,Optimization terminated successfully.,57,0
+two_block:sbm_24x24_bridges4_wb1_s3,fiedler,0.02882950932511149,2.779753219793457e-08,2.6645352591003757e-15,0,2,Desired error not necessarily achieved due to precision loss.,79,1
+two_block:sbm_24x24_bridges4_wb1_s3,random_1,0.02882950932511156,1.7051154721503528e-07,8.881784197001252e-16,1,0,Optimization terminated successfully.,82,0
+two_block:sbm_24x24_bridges4_wb1_s3,random_2,0.028829509325111524,1.63627049971915e-07,1.7763568394002505e-15,1,0,Optimization terminated successfully.,69,0
+two_block:sbm_24x24_bridges4_wb1_s3,random_3,0.028829509325111528,1.3937448108125578e-07,8.881784197001252e-16,1,0,Optimization terminated successfully.,76,0
+two_block:sbm_16x32_bridges1_wb1_s0,fiedler,0.012250061202532983,1.172054907697985e-07,1.3322676295501878e-15,0,2,Desired error not necessarily achieved due to precision loss.,94,1
+two_block:sbm_16x32_bridges1_wb1_s0,random_1,0.012250061202532983,1.1080908909975174e-07,8.659739592076221e-15,1,0,Optimization terminated successfully.,85,0
+two_block:sbm_16x32_bridges1_wb1_s0,random_2,0.012250061202532993,2.934640263348858e-07,1.3322676295501878e-15,1,0,Optimization terminated successfully.,93,0
+two_block:sbm_16x32_bridges1_wb1_s0,random_3,0.01225006120253299,1.4208080308369256e-07,1.2212453270876722e-14,1,0,Optimization terminated successfully.,83,0
+two_block:sbm_16x32_bridges1_wb1_s1,fiedler,0.011894724795924173,1.1591349943660886e-06,1.1102230246251565e-16,0,2,Desired error not necessarily achieved due to precision loss.,92,1
+two_block:sbm_16x32_bridges1_wb1_s1,random_1,0.011894724795924176,4.819168913563349e-07,2.4646951146678475e-14,0,2,Desired error not necessarily achieved due to precision loss.,95,0
+two_block:sbm_16x32_bridges1_wb1_s1,random_2,0.01189472479592418,2.5590656007809515e-07,1.9095836023552692e-14,1,0,Optimization terminated successfully.,152,0
+two_block:sbm_16x32_bridges1_wb1_s1,random_3,0.011894724795924176,1.2584209644912045e-07,3.3306690738754696e-15,1,0,Optimization terminated successfully.,90,0
+two_block:sbm_16x32_bridges1_wb1_s2,fiedler,0.00996292251921729,8.30046710219301e-08,2.220446049250313e-16,0,2,Desired error not necessarily achieved due to precision loss.,87,1
+two_block:sbm_16x32_bridges1_wb1_s2,random_1,0.009962922519217295,1.3378676657011324e-07,1.3988810110276972e-14,1,0,Optimization terminated successfully.,90,0
+two_block:sbm_16x32_bridges1_wb1_s2,random_2,0.009962922519217293,3.198008356594323e-07,3.1086244689504383e-15,1,0,Optimization terminated successfully.,117,0
+two_block:sbm_16x32_bridges1_wb1_s2,random_3,0.00996292251921729,9.261457180331777e-08,3.9968028886505635e-15,1,0,Optimization terminated successfully.,91,0
+two_block:sbm_16x32_bridges1_wb1_s3,fiedler,0.014297906971447989,8.264786080514064e-08,6.661338147750939e-16,0,2,Desired error not necessarily achieved due to precision loss.,91,1
+two_block:sbm_16x32_bridges1_wb1_s3,random_1,0.01429790697144799,1.4046124613940886e-07,1.7541523789077473e-14,1,0,Optimization terminated successfully.,82,0
+two_block:sbm_16x32_bridges1_wb1_s3,random_2,0.014297906971448147,3.5207007914248007e-07,1.2878587085651816e-14,1,0,Optimization terminated successfully.,193,0
+two_block:sbm_16x32_bridges1_wb1_s3,random_3,0.01429790697144799,7.173056924218017e-08,6.439293542825908e-15,1,0,Optimization terminated successfully.,82,0
+two_block:sbm_16x32_bridges4_wb1_s0,fiedler,0.05113935681528715,5.087537030719347e-08,8.881784197001252e-16,0,2,Desired error not necessarily achieved due to precision loss.,83,0
+two_block:sbm_16x32_bridges4_wb1_s0,random_1,0.05113935681528721,8.401163788598896e-08,1.9984014443252818e-14,1,0,Optimization terminated successfully.,75,0
+two_block:sbm_16x32_bridges4_wb1_s0,random_2,0.05113935681528713,1.5890806356194662e-07,3.1086244689504383e-15,1,0,Optimization terminated successfully.,101,1
+two_block:sbm_16x32_bridges4_wb1_s0,random_3,0.05113935681528719,1.501831351571891e-07,3.552713678800501e-15,1,0,Optimization terminated successfully.,81,0
+two_block:sbm_16x32_bridges4_wb1_s1,fiedler,0.057395530874244635,2.6607137160183925e-08,1.5543122344752192e-15,0,2,Desired error not necessarily achieved due to precision loss.,87,1
+two_block:sbm_16x32_bridges4_wb1_s1,random_1,0.05739553087424466,8.305866988980726e-08,1.3100631690576847e-14,1,0,Optimization terminated successfully.,88,0
+two_block:sbm_16x32_bridges4_wb1_s1,random_2,0.057395530874244954,2.0394750943272802e-07,4.3298697960381105e-15,1,0,Optimization terminated successfully.,189,0
+two_block:sbm_16x32_bridges4_wb1_s1,random_3,0.05739553087424465,8.730803539511166e-08,4.218847493575595e-15,1,0,Optimization terminated successfully.,77,0
+two_block:sbm_16x32_bridges4_wb1_s2,fiedler,0.050353151423715686,8.317499588031407e-08,2.220446049250313e-15,0,2,Desired error not necessarily achieved due to precision loss.,81,0
+two_block:sbm_16x32_bridges4_wb1_s2,random_1,0.05035315142371569,9.253952729104675e-08,3.774758283725532e-15,1,0,Optimization terminated successfully.,73,0
+two_block:sbm_16x32_bridges4_wb1_s2,random_2,0.050353151423715894,1.558568753431966e-07,3.552713678800501e-15,1,0,Optimization terminated successfully.,118,0
+two_block:sbm_16x32_bridges4_wb1_s2,random_3,0.05035315142371568,1.2802710176382234e-07,4.884981308350689e-15,1,0,Optimization terminated successfully.,82,1
+two_block:sbm_16x32_bridges4_wb1_s3,fiedler,0.05427044868380944,1.0186704102119193e-07,6.661338147750939e-16,0,2,Desired error not necessarily achieved due to precision loss.,82,1
+two_block:sbm_16x32_bridges4_wb1_s3,random_1,0.05427044868380944,5.3211302666195115e-08,1.1102230246251565e-14,1,0,Optimization terminated successfully.,78,0
+two_block:sbm_16x32_bridges4_wb1_s3,random_2,0.054270448683809924,3.241468653075729e-07,3.1086244689504383e-15,1,0,Optimization terminated successfully.,219,0
+two_block:sbm_16x32_bridges4_wb1_s3,random_3,0.05427044868380945,1.1297257140191473e-07,1.2656542480726785e-14,1,0,Optimization terminated successfully.,76,0

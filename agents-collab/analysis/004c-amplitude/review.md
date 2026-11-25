@@ -1,0 +1,5 @@
+# Orchestrator review — decision
+
+Accepted. I independently reran stable Kruskal on all 768 stored score-vector comparisons and verified label equivalence, the normalized score differences, all threshold and censor records, and the epsilon bound. The 22 near-tie rows are all in same-force diffusion; unchanged cuts in this rescaling experiment are not a robustness guarantee there. Endpoint-local clipping is nearly homogeneous; this result does not extend to fixed-threshold clipping.
+
+Plan §3 A is complete. Neither symmetric nor directional freezing demonstrated a benefit over unweighted continuation that survived step halving. The unweighted fork preserved the late low-pass gain over pure Mean, not the raw gain or a reliable advantage over diffusion and spectral. Confirmation stays closed: conclude with the mechanism and the unresolved wave benefit, not an equivalence or exclusion claim. Assemble the §5 figures and evidence index from the existing experiments without opening another search branch.

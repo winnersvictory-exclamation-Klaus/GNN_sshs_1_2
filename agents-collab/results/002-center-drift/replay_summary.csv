@@ -1,0 +1,9 @@
+family,n_graphs,runs,run_fail_abs,graphs_any_fail_abs,run_fail_centered,run_censored,run_rel_growth,bridges,all
+cycle,16,128,47,15,0,0,128,,
+clique,16,128,3,3,3,0,11,,
+sbm,16,128,19,12,1,0,55,,
+,12,96,12,9,3,0,60,1,
+,12,96,13,6,0,0,54,2,
+,12,96,18,7,1,0,39,4,
+,12,96,26,8,0,0,41,8,
+,48,384,69,30,4,0,194,,all

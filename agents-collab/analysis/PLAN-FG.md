@@ -1,0 +1,3 @@
+# Chosen plan: F+G combined (acceleration)
+Claim sought: on community graphs, (F) endpoint-local clipped diffusion and (G) a label-free-damped graph wave reach a stable correct 2-way cut in fewer edge operations than linear diffusion at its largest stable step. Details: PLAN-F.md, PLAN-OPTIONS.md §G. Honest ceilings: Chebyshev/Lanczos. Gates: stop and switch to the next plan (H, K, or E) if no method beats the fast-Mean-diffusion control. Confirmation only on fresh seeds after a dev pass.
+Jobs: 010a ARI-vs-ops curves (this file's first request) -> 010b damping rule for wave -> 010c harder SBMs/stopping rule -> 011 confirm.

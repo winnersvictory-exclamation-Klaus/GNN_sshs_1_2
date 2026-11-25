@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+
+# agents-collab: only publish results and analysis; the loop machinery stays local
+agents-collab/*
+!agents-collab/results/
+!agents-collab/analysis/
+
+# in-progress loop jobs (remove a line once the job is finished)
+agents-collab/results/010-denoise-hard/
+agents-collab/analysis/010-denoise-hard/

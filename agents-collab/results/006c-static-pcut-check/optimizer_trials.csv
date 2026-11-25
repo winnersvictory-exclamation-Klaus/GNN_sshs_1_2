@@ -1,0 +1,9 @@
+graph,start,rayleigh,grad_inf,center_residual,optimizer_success,optimizer_status,optimizer_message,iterations,selected
+two_block:clique_4x5_bridges1_wb0.25_s0,fiedler,0.02379611840271223,1.1521489068112849e-06,8.881784197001252e-16,0,2,Desired error not necessarily achieved due to precision loss.,29,0
+two_block:clique_4x5_bridges1_wb0.25_s0,random_1,0.023796118402712226,2.688558065016763e-06,2.220446049250313e-16,0,2,Desired error not necessarily achieved due to precision loss.,40,1
+two_block:clique_4x5_bridges1_wb0.25_s0,random_2,0.023796118402712226,4.146345814916643e-06,3.3306690738754696e-16,0,2,Desired error not necessarily achieved due to precision loss.,38,0
+two_block:clique_4x5_bridges1_wb0.25_s0,random_3,0.02379611840271223,1.2602045213246788e-06,1.1102230246251565e-15,0,2,Desired error not necessarily achieved due to precision loss.,43,0
+two_block:cycle_4x5_bridges1_wb0.25_s0,fiedler,0.03861752290282583,5.03033710118686e-07,1.1102230246251565e-16,0,2,Desired error not necessarily achieved due to precision loss.,29,1
+two_block:cycle_4x5_bridges1_wb0.25_s0,random_1,0.03861752290282583,5.222392696884597e-07,4.440892098500626e-16,0,2,Desired error not necessarily achieved due to precision loss.,46,0
+two_block:cycle_4x5_bridges1_wb0.25_s0,random_2,0.03861752290282584,1.8752748017457355e-06,1.3322676295501878e-15,0,2,Desired error not necessarily achieved due to precision loss.,30,0
+two_block:cycle_4x5_bridges1_wb0.25_s0,random_3,0.03861752290282584,1.045758949482986e-06,3.3306690738754696e-16,0,2,Desired error not necessarily achieved due to precision loss.,32,0

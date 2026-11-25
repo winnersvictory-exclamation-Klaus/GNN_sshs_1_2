@@ -1,0 +1,18 @@
+check,value,tol,passed,hard
+part1_graph_count,48,==48,1,1
+part1_diag_first_abs_equals_legacy_fail_step,48,48/48 graphs,1,1
+part1_diag_prefix_bitwise_equals_legacy,48,48/48 graphs,1,1
+part1_center_recursion_residual,8.961939869231862e-16,1e-10,1,1
+part1_archive_n_ok_match,48,"48/48 graphs (discrepancies reported, not fatal)",1,0
+part1_archive_mean_fail_step_match,48,"48/48 graphs (discrepancies reported, not fatal)",1,0
+part1_archive_readout_match,48,"48/48 graphs (discrepancies reported, not fatal)",1,0
+mean_free_forces_conservation_ratio,6.5682545303425315e-15,1e-12,1,1
+mean_free_forces_center_preserved,1.3776685462047682e-13,1e-10,1,1
+slice_center_recursion_residual,9.248770274707896e-16,1e-10,1,1
+projection_equals_recentered_original_full_horizon,2.2633521736036058e-08,1e-08,0,0
+projection_equals_recentered_original_t_le_50,4.5937142534653395e-14,1e-12,1,1
+projection_dev_over_1ulp_twin_dev,4.802778517733452,10.0,1,1
+linear_mode_frequency_amplitude_dev,1.0096229408063095e-12,1e-09,1,1
+linear_mode_offmode_leak,2.2121193765656244e-14,1e-09,1,1
+bridge_force_hand_check,2.0816681711721685e-17,1e-15,1,1
+slice_graph_count,12,==12,1,1

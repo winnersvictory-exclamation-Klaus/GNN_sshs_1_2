@@ -1,0 +1,143 @@
+{
+  "environment": {
+    "python": "3.15.2",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "sklearn": "1.9.1"
+  },
+  "part1": {
+    "runs": 384,
+    "run_fail_abs": 69,
+    "graphs_any_fail": 30,
+    "archive_run_fail": 69,
+    "init_classes": {
+      "center_only_crossing": 6,
+      "mixed_center_crossing_relative_growth": 59,
+      "no_crossing": 184,
+      "no_crossing_relative_growth": 131,
+      "relative_crossing": 4
+    }
+  },
+  "checks": [
+    {
+      "check": "part1_graph_count",
+      "value": 48,
+      "tol": "==48",
+      "passed": 1,
+      "hard": 1
+    },
+    {
+      "check": "part1_diag_first_abs_equals_legacy_fail_step",
+      "value": 48,
+      "tol": "48/48 graphs",
+      "passed": 1,
+      "hard": 1
+    },
+    {
+      "check": "part1_diag_prefix_bitwise_equals_legacy",
+      "value": 48,
+      "tol": "48/48 graphs",
+      "passed": 1,
+      "hard": 1
+    },
+    {
+      "check": "part1_center_recursion_residual",
+      "value": 8.961939869231862e-16,
+      "tol": 1e-10,
+      "passed": 1,
+      "hard": 1
+    },
+    {
+      "check": "part1_archive_n_ok_match",
+      "value": 48,
+      "tol": "48/48 graphs (discrepancies reported, not fatal)",
+      "passed": 1,
+      "hard": 0
+    },
+    {
+      "check": "part1_archive_mean_fail_step_match",
+      "value": 48,
+      "tol": "48/48 graphs (discrepancies reported, not fatal)",
+      "passed": 1,
+      "hard": 0
+    },
+    {
+      "check": "part1_archive_readout_match",
+      "value": 48,
+      "tol": "48/48 graphs (discrepancies reported, not fatal)",
+      "passed": 1,
+      "hard": 0
+    },
+    {
+      "check": "mean_free_forces_conservation_ratio",
+      "value": 6.5682545303425315e-15,
+      "tol": 1e-12,
+      "passed": 1,
+      "hard": 1
+    },
+    {
+      "check": "mean_free_forces_center_preserved",
+      "value": 1.3776685462047682e-13,
+      "tol": 1e-10,
+      "passed": 1,
+      "hard": 1
+    },
+    {
+      "check": "slice_center_recursion_residual",
+      "value": 9.248770274707896e-16,
+      "tol": 1e-10,
+      "passed": 1,
+      "hard": 1
+    },
+    {
+      "check": "projection_equals_recentered_original_full_horizon",
+      "value": 2.2633521736036058e-08,
+      "tol": 1e-08,
+      "passed": 0,
+      "hard": 0
+    },
+    {
+      "check": "projection_equals_recentered_original_t_le_50",
+      "value": 4.5937142534653395e-14,
+      "tol": 1e-12,
+      "passed": 1,
+      "hard": 1
+    },
+    {
+      "check": "projection_dev_over_1ulp_twin_dev",
+      "value": 4.802778517733452,
+      "tol": 10.0,
+      "passed": 1,
+      "hard": 1
+    },
+    {
+      "check": "linear_mode_frequency_amplitude_dev",
+      "value": 1.0096229408063095e-12,
+      "tol": 1e-09,
+      "passed": 1,
+      "hard": 1
+    },
+    {
+      "check": "linear_mode_offmode_leak",
+      "value": 2.2121193765656244e-14,
+      "tol": 1e-09,
+      "passed": 1,
+      "hard": 1
+    },
+    {
+      "check": "bridge_force_hand_check",
+      "value": 2.0816681711721685e-17,
+      "tol": 1e-15,
+      "passed": 1,
+      "hard": 1
+    },
+    {
+      "check": "slice_graph_count",
+      "value": 12,
+      "tol": "==12",
+      "passed": 1,
+      "hard": 1
+    }
+  ],
+  "hard_failures": []
+}
